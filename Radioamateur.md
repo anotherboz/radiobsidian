@@ -10,20 +10,41 @@ ANFR :: Agence Nationale des Fréquences
 SRR :: Service Régionaux de Radiocommunication de l'ANFR
 
 ### Réglementation internationale 
-Le Réglement des Radiocommunications définit le service radioamateur (S1-56) et service d'amateurs par satellite (S1-57).
+L'UIT édite le RR. Tous les 3 ou 4 ans, l’UIT-R organise à son siège de Genève une CMR (WRC) pour mettre à jour le RR.
+
+Le Réglement des Radiocommunications définit le service radioamateur :: S1-56 
+Le RR définit le service d'amateurs par satellite :: S1-57
+
+La Résolution 646 préconise une harmonisation des fréquences par région et reconnaît l’utilité de la Convention de Tampere.
+
+L’article S25 précise les conditions d’exploitation du service amateur. La disposition S25-9A du RR résume l’esprit de tous ces textes : "les administrations sont invitées à prendre les mesures nécessaires pour autoriser les stations d'amateurs à se préparer en vue de répondre aux besoins de communication pour les opérations de secours en cas de catastrophes". La Recommandation UIT-RM.1042 demande aux radioamateurs la mise en œuvre rapide de réseaux souples et fiables en cas de catastrophe. 
 
 UIT :: Union Internationale des Télécommunications
 RR :: Radio Regulation, Réglement des Radiocommunications
 
 ### Réglementation européenne
+ La CEPT regroupe les administrations chargées des postes et des télécommunications des 27 pays de l’Union Européenne et de 21 autres pays européens.
+
+T/R 61-01 :: La recommandation établit la libre circulation des radioamateurs au sein de la CEPT pour des séjours de moins de 3 mois.
+T/R 61-02 :: La recommandation préconise notamment un programme d’examen détaillé de réglementation et de technique (HAREC). 
+
 CEPT :: Conférence Européenne des administration des Postes et Télécommunications
 
 ### Réglementation nationale
-Le CPCE définit 5 catégories d'installations. Les installations radioamateurs constituent la 3ème catégorie (L33-3). "L'utilisation des fréquences radioélectrique constitue un mode privatif du domaine publicde l'Etat."
+Le CPCE définit 5 catégories d'installations. Les installations radioamateurs constituent la 3ème catégorie.
+L33-3 :: "L'utilisation des fréquences radioélectrique constitue un mode privatif du domaine publicde l'Etat" & "Les installations radioélectriques n'utilisant pas des fréquences spécifiquement assignées"
 
 ARCEP est consulté pour les projets de loi. Elle prend des décisions qui sont homologuées par le ministre et publiées au journal officiel. Elle attribue les fréquences et veille à leur bonne utilisation.
+L36-7 :: l’ARCEP assigne aux utilisateurs les fréquences. Elle est notre autorité de tutelle
+L41 :: le Premier Ministre arrête le partage du spectre radioélectrique
+L41-1 :: l'utilisation de fréquences radioélectrique est soumise à autorisation administrative
+L42 :: l’ARCEP fixe les conditions techniques d’utilisation des fréquences
+L42-4 :: le ministre chargé des communications électroniques fixe les conditions d’obtention du certificat d’opérateur
+L43 :: l’ANFR assure la gestion et le contrôle d’utilisation des fréquences radioélectriques.
 
 L'ANFR a pour but d'assurer la planification, la gestion et le contrôle d'utilisation des fréquences radioélectriques. Elle organise les examens, délivre les certificats et les indicatifs. Les SRR organisent les examens en région.
+
+• D406-7 : définition des installations utilisant des fréquences radioélectriques
 
 CPCE :: Code des Postes et Communications électroniques
 ARCEP :: Autorité de Régulation des Communications Electronique, des Postes et de la distribution de la Presse (autres usagers dont services amateurs)
@@ -174,5 +195,13 @@ QTR :: Quelle est l'heure exacte ?
 
 ### Déroulement d'un contact
 
+On doit transmettre son indicatif en début d'emmission et au moins une fois toutes les 15 minutes. On doit veiller à ne pas brouiller une émission déjà en cours (écouter avant d'émettre). On ne doit pas utiliser la même fréquence en permanence ni brouiller volontairement des emissions déjà en cours.
 
+Les communications doivent être en rapport avec l'objet du service radioamateur. Ne doivent pas être codées, ne pas être en provenance ou à destination d'une tièrce personne non radioamateur (sauf situation d'urgence ou catastrophe naturelle).
+
+Journal de bord doit comporter la date, l'heure, l'indicatif du correspondant, la fréquence et la classe d'emmission (et le lieu d'emission en portable ou mobile). Il doit être conservé 1 an après la dernière emission.
+
+L'adresse d'une station fixe doit être déclarée à l'ANFR dans les 2 mois (après un changement).
+
+L'indicatif peut entre suffixé de /P pour portable, /M pour mobile, /MM pour maritime mobile en CW ou en plein terme en audio.
 
