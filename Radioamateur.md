@@ -120,13 +120,21 @@ F7W :: Combinaison de différent type d'information, modulation de fréquence av
 
 #flashcards/conditions-techniques
 
-Le seul **matériel obligatoire** est ==l'indicateur de puissance==.
-Les **largeurs de bandes occupées** sont ==6kHz== pour les fréquences inférieues à 28MHz, ==12kHz== entre 28 et 144MHz, ==20kHz== entre 144 et 225MHz, ==pas de limite== au dessus de 225MHz.
-<!--SR:!2025-02-02,3,250!2025-02-02,3,250!2025-01-31,1,230!2025-02-02,3,250!2025-02-02,3,250-->
+Le seul **matériel obligatoire** est :: ==l'indicateur de puissance==.
 
-Puissance maximale des **rayonnements non essentiels** est ==43dB + 10 log[P]==.
-Emission hors bande = ==5 x bande passante==. Rayonnement non essentiel : hors de la zone hors bande.
-<!--SR:!2025-01-31,1,230!2025-02-02,3,250-->
+#flashcards/conditions-techniques/largeur-de-bande
+
+La **largeur de bande occupée** est ==6kHz== pour les fréquences :::  inférieues à 28MHz
+
+La **largeur de bande occupée** est==12kHz==  ::: entre 28 et 144MHz
+
+La **largeur de bande occupée** est==20kHz== ::: entre 144 et 225MH
+
+La **largeur de bande occupée** n'est ==pas de limite==  ::: au dessus de 225MHz.
+
+Puissance maximale des **rayonnements non essentiels** :: est ==43dB + 10 log[P]==.
+Emission hors bande ::  ==5 x bande passante==. 
+Rayonnement non essentiel ::: hors de la zone hors bande.
 
 ## Fréquences et Puissances autorisées
 
@@ -134,8 +142,8 @@ Il y a 27 bandes attribuées aux radio-amateurs. Certaines à **titre primaire**
 
 |     | Bande | Fréquences MHz | Statut     | Puissance |
 | --- | ----- | -------------- | ---------- | --------- |
-| LF  | 2222m | 0,1357-0,1378  | Secondaire | 1 W       |
-| MF  | 630m  | 0,472-0,479    | Secondaire | 15 W      |
+| LF  | 2222m | 0,1357-0,1378  | Secondaire | 1 W PIRE  |
+| MF  | 630m  | 0,472-0,479    | Secondaire | 1 W PIRE  |
 |     | 160m  | 1,810-1,850    | Primaire   |           |
 | HF  | 80m   | 3,5-3,8        | Secondaire | < 500W    |
 |     | 60m   | 5,3515-5,5665  | Partagé    |           |
