@@ -7,73 +7,51 @@ Exam1 : https://exam1.r-e-f.org/accueil
 Deux épreuves (techniques et réglementaires), 10/20 minimum pour chaque. Pas d'age réglementaire. 1 point par bonne réponse. Organisé par les SRR.
 
 ANFR :: Agence Nationale des Fréquences
-<!--SR:!2025-02-03,4,270-->
-<!--SR:!2025-02-03,4,270-->
 SRR :: Service Régionaux de Radiocommunication de l'ANFR
-<!--SR:!2025-02-02,3,250-->
 
 ### Réglementation internationale 
 L'UIT édite le RR. Tous les 3 ou 4 ans, l’UIT-R organise à son siège de Genève une CMR (WRC) pour mettre à jour le RR.
 
 Le Réglement des Radiocommunications définit le service radioamateur :: S1-56
-<!--SR:!2025-01-31,1,230-->
 Le RR définit le service d'amateurs par satellite :: S1-57
-<!--SR:!2025-01-31,1,230-->
 
 La Résolution 646 préconise une harmonisation des fréquences par région et reconnaît l’utilité de la Convention de Tampere.
 
 L’article S25 précise les conditions d’exploitation du service amateur. La disposition S25-9A du RR résume l’esprit de tous ces textes : "les administrations sont invitées à prendre les mesures nécessaires pour autoriser les stations d'amateurs à se préparer en vue de répondre aux besoins de communication pour les opérations de secours en cas de catastrophes". La Recommandation UIT-RM.1042 demande aux radioamateurs la mise en œuvre rapide de réseaux souples et fiables en cas de catastrophe. 
 
 UIT :: Union Internationale des Télécommunications
-<!--SR:!2025-02-03,4,270-->
 RR :: Radio Regulation, Réglement des Radiocommunications
-<!--SR:!2025-02-02,3,250-->
 
 ### Réglementation européenne
  La CEPT regroupe les administrations chargées des postes et des télécommunications des 27 pays de l’Union Européenne et de 21 autres pays européens.
 
 T/R 61-01 :: La recommandation établit la libre circulation des radioamateurs au sein de la CEPT pour des séjours de moins de 3 mois.
-<!--SR:!2025-01-31,1,230-->
 T/R 61-02 :: La recommandation préconise notamment un programme d’examen détaillé de réglementation et de technique (HAREC).
-<!--SR:!2025-01-31,1,230-->
 
 CEPT :: Conférence Européenne des administration des Postes et Télécommunications
-<!--SR:!2025-01-31,1,230-->
 
 ### Réglementation nationale
 Le CPCE définit 5 catégories d'installations. Les installations radioamateurs constituent la 3ème catégorie.
 L33-3 :: "L'utilisation des fréquences radioélectrique constitue un mode privatif du domaine publicde l'Etat" & "Les installations radioélectriques n'utilisant pas des fréquences spécifiquement assignées"
-<!--SR:!2025-01-31,1,230-->
 
 ARCEP est consulté pour les projets de loi. Elle prend des décisions qui sont homologuées par le ministre et publiées au journal officiel. Elle attribue les fréquences et veille à leur bonne utilisation.
 L36-7 :: l’ARCEP assigne aux utilisateurs les fréquences. Elle est notre autorité de tutelle
-<!--SR:!2025-01-31,1,230-->
 L41 :: le Premier Ministre arrête le partage du spectre radioélectrique
-<!--SR:!2025-01-31,1,230-->
 L41-1 :: l'utilisation de fréquences radioélectrique est soumise à autorisation administrative
-<!--SR:!2025-01-31,1,230-->
 L42 :: l’ARCEP fixe les conditions techniques d’utilisation des fréquences
-<!--SR:!2025-01-31,1,230-->
 L42-4 :: le ministre chargé des communications électroniques fixe les conditions d’obtention du certificat d’opérateur
-<!--SR:!2025-01-31,1,230-->
 L43 :: l’ANFR assure la gestion et le contrôle d’utilisation des fréquences radioélectriques.
-<!--SR:!2025-01-31,1,230-->
 
 L'ANFR a pour but d'assurer la planification, la gestion et le contrôle d'utilisation des fréquences radioélectriques. Elle organise les examens, délivre les certificats et les indicatifs. Les SRR organisent les examens en région.
 
 • D406-7 : définition des installations utilisant des fréquences radioélectriques
 
 CPCE :: Code des Postes et Communications électroniques
-<!--SR:!2025-01-31,1,230-->
 ARCEP :: Autorité de Régulation des Communications Electronique, des Postes et de la distribution de la Presse (autres usagers dont services amateurs)
-<!--SR:!2025-01-31,1,230-->
 ARCOM :: Autorité de Régulation des Communication, anciennement CSA, gère les fréquences de la TV, la FM et les services de l'état
-<!--SR:!2025-02-02,3,250-->
 TNRBF :: Tableau National de Répartition des Bandes de Fréquences
-<!--SR:!2025-02-03,4,270-->
 ANFR :: Agence Nationale des Fréquences
 SRR :: Services Régionaux de Radiocommunication
-<!--SR:!2025-02-02,3,250-->
 
 
 ### Classe d'émission
@@ -85,13 +63,14 @@ SRR :: Services Régionaux de Radiocommunication
 | **C** Amplitude (bande latérale résiduelle)    | **3** Analogique                                   | **C** Fac-similé (image fixe)        |
 | **D** Amplitude et angulaire                   | **7** Numérique (plusieurs voies)                  | **D** Transmission de données        |
 | **F** Angulaire - Fréquence                    | **8** Analogique (plusieurs voies)                 | **E** Téléphonie                     |
-| **G** Angulaire - Phase                        | **9** Analogique et numérique                      | **F** Télévision                     |
+| **G** Angulaire - Phase                        | **9** Analogique et numérique<br>                  | **F** Télévision                     |
 | **H** Amplitude - BLU porteuse complète        | **0** Pas de signal modulant                       | **N** Aucune information             |
 | **J** Amplitude - BLU porteuse supprimée       | **X** Autres cas                                   | **W** Combinaison                    |
 | **R** Amplitude - BLU porteuse réduite         |                                                    | **X** Autres cas                     |
 | **K,L,M,P,Q,V** Train d'impulsions             |                                                    |                                      |
 | **W** Combinaison et autre                     |                                                    |                                      |
 | **N** Porteuse non modulée                     |                                                    |                                      |
+
 Logique du codage :
 On commence par l’amplitude seule (A = AM pure, B et C = AM spécifique) puis 
 amplitude et angulaire (D) puis angulaire seule (F = fréquence et G = phase). Viennent ensuite les trois types de BLU (H, J et R = réduite). A la fin, on trouve les trains d’impulsions (K, L, M, P, Q et V)
@@ -102,19 +81,12 @@ Moyen mnémotechnique (initiale du code) :
 #flashcards/classes-emission
 Exemple de classe : 
 A1A :: Télégraphie audive, modulation d'amplitude par tout ou rien sans sous porteuse, CW
-<!--SR:!2025-02-03,4,270-->
 A1B :: Télégraphie automatique, modulation d'amplitude par tout ou rien sans sous porteuse
-<!--SR:!2025-02-02,3,250-->
 F2A :: Télégraphie auditive en FM avec une seule voie avec sous porteuse modulante
-<!--SR:!2025-02-03,4,270-->
 F3E :: Téléphonie en modulation de fréquence
-<!--SR:!2025-02-02,3,250-->
 G2B :: Télégraphie automatique avec modulation de phase; une seule voie avec sous porteuse modulante (PSK31)
-<!--SR:!2025-02-02,3,250-->
 J3C :: Fac-simile, BLU porteuse supprimée
-<!--SR:!2025-02-02,3,250-->
 F7W :: Combinaison de différent type d'information, modulation de fréquence avec plusieur voies numériques (comme le protocole D-Start)
-<!--SR:!2025-01-31,1,230-->
 
 ### Conditions techniques
 
@@ -174,112 +146,68 @@ Il y a 27 bandes attribuées aux radio-amateurs. Certaines à **titre primaire**
 |     | 1,2mm |                |            |           |
 
 PIRE :: Puissance Isotrope Rayonnée Equivalente
-<!--SR:!2025-01-31,1,230-->
-
+Statut des bandes
+??
+A titre primaire : Les radioamateurs sont prioritaire sur ces bandes
+En partage : Avec églité de droit
+A titre secondaire : Les radioamateurs ne doivent pas brouiller les usagers à titre primaire
+A titre primaire uniquement en France (pour la bande de 10GHz)
 ## Alphabet & Code Q
 
 ### Alphabete
 #flashcards/alphabet
 A :: Alpha
-<!--SR:!2025-02-03,4,270-->
 B :: Bravo
-<!--SR:!2025-02-03,4,270-->
 C :: Charlie
-<!--SR:!2025-02-03,4,270-->
 D :: Delta
-<!--SR:!2025-02-03,4,270-->
 E :: Echo
-<!--SR:!2025-02-03,4,270-->
 F :: Foxtrot
-<!--SR:!2025-02-03,4,270-->
 G :: Golf
-<!--SR:!2025-02-03,4,270-->
 H :: Hotel
-<!--SR:!2025-02-03,4,270-->
 I :: India
-<!--SR:!2025-02-03,4,270-->
 J :: Juliett
-<!--SR:!2025-02-03,4,270-->
 K :: Kilo
-<!--SR:!2025-02-03,4,270-->
 L :: Lima
-<!--SR:!2025-02-03,4,270-->
 M :: Mike
-<!--SR:!2025-02-03,4,270-->
 N :: November
-<!--SR:!2025-02-03,4,270-->
 O :: Oscar
-<!--SR:!2025-02-03,4,270-->
 P :: Papa
-<!--SR:!2025-02-03,4,270-->
 Q :: Quebec
-<!--SR:!2025-02-03,4,270-->
 R :: Romeo
-<!--SR:!2025-02-03,4,270-->
 S :: Sierra
-<!--SR:!2025-02-03,4,270-->
 T :: Tango
-<!--SR:!2025-02-03,4,270-->
 U :: Uniform
-<!--SR:!2025-02-03,4,270-->
 V :: Victor
-<!--SR:!2025-02-03,4,270-->
 W :: Whiskey
-<!--SR:!2025-02-03,4,270-->
 X :: X-Ray
-<!--SR:!2025-02-03,4,270-->
 Y :: Yankee
-<!--SR:!2025-02-03,4,270-->
 Z :: Zoulou
-<!--SR:!2025-02-03,4,270-->
 
 ### Code Q
 
 #flashcards/code-q
 QRA :: Quel est le nom de votre station ?
-<!--SR:!2025-01-31,1,230-->
 QRG :: Quelle est *ma* fréquence exacte ?
-<!--SR:!2025-01-31,1,230-->
 QRH :: Ma fréquence varie-t-elle ?
-<!--SR:!2025-01-31,1,230-->
 QRK :: Quelle est l'intelligibilité de mes signaux ? de 1 à 5
-<!--SR:!2025-01-31,1,230-->
 QRL :: Etes vos occupé ?
-<!--SR:!2025-01-31,1,230-->
 QRM :: Etes vous brouillé ?
-<!--SR:!2025-02-02,3,250-->
 QRN :: Etes vous troublé par des parasites ?
-<!--SR:!2025-02-02,3,250-->
 QRO :: Dois-je augmenter la puissance d'émission ?
-<!--SR:!2025-01-31,1,230-->
 QRP :: Dois-je diminuer la puissance d'emission ?
-<!--SR:!2025-01-31,1,230-->
 QRT :: Dois-je cesser la transmission ?
-<!--SR:!2025-01-31,1,230-->
 QRU :: Avez vous quelque chose pour moi ?
-<!--SR:!2025-01-31,1,230-->
 QRV :: Etes vous prêt ?
-<!--SR:!2025-01-31,1,230-->
 QRX :: A quel moment me rappelez-vous ?
-<!--SR:!2025-01-31,1,230-->
 QRZ :: Par qui suis-je appelé ?
-<!--SR:!2025-02-02,3,250-->
 QSA :: Quelle est la force de mes signaux ?
-<!--SR:!2025-01-31,1,230-->
 QSB :: La force de mes signaux varie-t-elle ?
-<!--SR:!2025-01-31,1,230-->
 QSL :: Pouvez-vous me donner un accusé réception ?
-<!--SR:!2025-01-31,1,230-->
 QSO :: Pouvez-vous communiquer avec ... ?
-<!--SR:!2025-02-02,3,250-->
 QSP :: Voulez-vous retransmettre gratuitement à ... ?
-<!--SR:!2025-01-31,1,230-->
 QSY :: Dois-je passer à une autre fréquence ?
-<!--SR:!2025-01-31,1,230-->
 QTH :: Quelle est votre position ?
-<!--SR:!2025-01-31,1,230-->
 QTR :: Quelle est l'heure exacte ?
-<!--SR:!2025-01-31,1,230-->
 
 ### Déroulement d'un contact
 
