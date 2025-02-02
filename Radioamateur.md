@@ -63,13 +63,14 @@ SRR :: Services Régionaux de Radiocommunication
 | **C** Amplitude (bande latérale résiduelle)    | **3** Analogique                                   | **C** Fac-similé (image fixe)        |
 | **D** Amplitude et angulaire                   | **7** Numérique (plusieurs voies)                  | **D** Transmission de données        |
 | **F** Angulaire - Fréquence                    | **8** Analogique (plusieurs voies)                 | **E** Téléphonie                     |
-| **G** Angulaire - Phase                        | **9** Analogique et numérique                      | **F** Télévision                     |
+| **G** Angulaire - Phase                        | **9** Analogique et numérique<br>                  | **F** Télévision                     |
 | **H** Amplitude - BLU porteuse complète        | **0** Pas de signal modulant                       | **N** Aucune information             |
 | **J** Amplitude - BLU porteuse supprimée       | **X** Autres cas                                   | **W** Combinaison                    |
 | **R** Amplitude - BLU porteuse réduite         |                                                    | **X** Autres cas                     |
 | **K,L,M,P,Q,V** Train d'impulsions             |                                                    |                                      |
 | **W** Combinaison et autre                     |                                                    |                                      |
 | **N** Porteuse non modulée                     |                                                    |                                      |
+
 Logique du codage :
 On commence par l’amplitude seule (A = AM pure, B et C = AM spécifique) puis 
 amplitude et angulaire (D) puis angulaire seule (F = fréquence et G = phase). Viennent ensuite les trois types de BLU (H, J et R = réduite). A la fin, on trouve les trains d’impulsions (K, L, M, P, Q et V)
@@ -145,7 +146,12 @@ Il y a 27 bandes attribuées aux radio-amateurs. Certaines à **titre primaire**
 |     | 1,2mm |                |            |           |
 
 PIRE :: Puissance Isotrope Rayonnée Equivalente
-
+Statut des bandes
+??
+A titre primaire : Les radioamateurs sont prioritaire sur ces bandes
+En partage : Avec églité de droit
+A titre secondaire : Les radioamateurs ne doivent pas brouiller les usagers à titre primaire
+A titre primaire uniquement en France (pour la bande de 10GHz)
 ## Alphabet & Code Q
 
 ### Alphabete
