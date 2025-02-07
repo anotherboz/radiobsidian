@@ -150,47 +150,48 @@ Rayonnement non essentiel ::: hors de la zone hors bande.
 
 Il y a 27 bandes attribuées aux radio-amateurs. Certaines à **titre primaire** sont attribuées exclusivement aux OM. Celles à titre **primaire partagées** avec égalitée de droits avec d'autres services. Celles à **titre secondaire**, les OM ne sont pas prioritaires et ne doivent pas causer de brouillage.
 
-|     | Bande | Fréquences MHz | Statut     | Puissance |
-| --- | ----- | -------------- | ---------- | --------- |
-| LF  | 2222m | 0,1357-0,1378  | Secondaire | 1 W PIRE  |
-| MF  | 630m  | 0,472-0,479    | Secondaire | 1 W PIRE  |
-|     | 160m  | 1,810-1,850    | Primaire   |           |
-| HF  | 80m   | 3,5-3,8        | Secondaire | < 500W    |
-|     | 60m   | 5,3515-5,5665  | Partagé    |           |
-|     | 40m   | 7-7,2          | Primaire   |           |
-|     | 30m   | 10,1-10,15     | Secondaire |           |
-|     | 20m   | 14-14,35       | Primaire   |           |
-|     | 17m   | 18,068-18,168  | Primaire   |           |
-|     | 15m   | 21-21,45       | Primaire   |           |
-|     | 12m   | 24,89-24,99    | Primaire   |           |
-|     | 10m   | 28-29,7        | Primaire   | < 250W    |
-| VHF | 6m    | 50-52          | Secondaire | < 120W    |
-|     | 2m    | **144-146**    | Primaire   |           |
-| UHF | 70cm  | 430-434        | Secondaire |           |
-|     | 70cm  | 434-440        | Primaire   |           |
-|     | 23cm  | 1240-1300      | Secondaire |           |
-|     | 13cm  | 2300-2450      | Secondaire |           |
-| SHF | 6cm   | 5650-5850      | Secondaire |           |
-|     | 3cm   | 10 000-10 450  | Secondaire |           |
-|     | 3cm   | 10 450-10 500  | Primaire   |           |
-|     | 1,2cm | 24 000-24 050  | Primaire   |           |
-|     | 1,2cm | 24 050-24 250  | Secondaire |           |
-| EHF | 6mm   | 47 000-47 200  |            |           |
-|     | 4mm   | 76 000-77 500  |            |           |
-|     | 4mm   | 77 500-78 000  |            |           |
-|     | 2,4mm |                |            |           |
-|     | 2,2mm |                |            |           |
-|     | 2,2mm |                |            |           |
-|     | 1,2mm |                |            |           |
+|     | Bande | Fréquences MHz | Statut     | Puissance | Satellite     |
+| --- | ----- | -------------- | ---------- | --------- | ------------- |
+| LF  | 2222m | 0,1357-0,1378  | Secondaire | 1 W PIRE  |               |
+| MF  | 630m  | 0,472-0,479    | Secondaire | 1 W PIRE  |               |
+|     | 160m  | 1,810-1,850    | Primaire   |           |               |
+| HF  | 80m   | 3,5-3,8        | Secondaire | < 500W    |               |
+|     | 60m   | 5,3515-5,5665  | Partagé    | 15 W PIRE |               |
+|     | 40m   | 7-7,2          | Primaire   |           | 7-7,1         |
+|     | 30m   | 10,1-10,15     | Secondaire |           |               |
+|     | 20m   | 14-14,35       | Primaire   |           | 14-14,25      |
+|     | 17m   | 18,068-18,168  | Primaire   |           | 18,068-18,168 |
+|     | 15m   | 21-21,45       | Primaire   |           | 21-21,45      |
+|     | 12m   | 24,89-24,99    | Primaire   |           | 24,89-24,99   |
+|     | 10m   | 28-29,7        | Primaire   | < 250W    | 28-29,7       |
+| VHF | 6m    | 50-52          | Secondaire | < 120W    |               |
+|     | 2m    | **144-146**    | Primaire   |           | 144-146       |
+| UHF | 70cm  | 430-434        | Secondaire |           |               |
+|     | 70cm  | 434-440        | Primaire   |           |               |
+|     | 23cm  | 1240-1300      | Secondaire |           |               |
+|     | 13cm  | 2300-2450      | Secondaire |           | 2400-2450     |
+| SHF | 6cm   | 5650-5850      | Secondaire |           |               |
+|     | 3cm   | 10 000-10 450  | Secondaire |           |               |
+|     | 3cm   | 10 450-10 500  | Primaire   |           |               |
+|     | 1,2cm | 24 000-24 050  | Primaire   |           |               |
+|     | 1,2cm | 24 050-24 250  | Secondaire |           |               |
+| EHF | 6mm   | 47 000-47 200  |            |           |               |
+|     | 4mm   | 76 000-77 500  |            |           |               |
+|     | 4mm   | 77 500-78 000  |            |           |               |
+|     | 2,4mm |                |            |           |               |
+|     | 2,2mm |                |            |           |               |
+|     | 2,2mm |                |            |           |               |
+|     | 1,2mm |                |            |           |               |
 
 PIRE :: Puissance Isotrope Rayonnée Equivalente
-<!--SR:!2025-02-16,9,251-->
-Statut des bandes
-??
-A titre primaire : Les radioamateurs sont prioritaire sur ces bandes
-En partage : Avec églité de droit
-A titre secondaire : Les radioamateurs ne doivent pas brouiller les usagers à titre primaire
-A titre primaire uniquement en France (pour la bande de 10GHz)
+
+#flashcards/conditions-techniques/statut-des-bandes
+
+Statut A ::  Primaire : Les radioamateurs sont prioritaire sur ces bandes
+Statut B ::  En partage : Avec églité de droit
+Statut C :: A titre secondaire : Les radioamateurs ne doivent pas brouiller les usagers à titre primaire
+Statut D :: A titre primaire uniquement en France (pour la bande de 10GHz)
+
 ## Alphabet & Code Q
 <!--SR:!2025-02-14,7,251!2025-02-15,8,251-->
 
