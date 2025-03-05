@@ -6,9 +6,6 @@ Exam1 : https://exam1.r-e-f.org/accueil
 ## Examen, Classes d'émission, Conditions techniques
 Deux épreuves (techniques et réglementaires), 10/20 minimum pour chaque. Pas d'age réglementaire. 1 point par bonne réponse. Organisé par les SRR.
 
-ANFR :: Agence Nationale des Fréquences
-SRR :: Service Régionaux de Radiocommunication de l'ANFR
-
 ### Réglementation internationale 
 L'UIT édite le RR. Tous les 3 ou 4 ans, l’UIT-R organise à son siège de Genève une CMR (WRC) pour mettre à jour le RR.
 
@@ -223,3 +220,55 @@ L'adresse d'une station fixe doit être déclarée à l'ANFR dans les 2 mois (ap
 
 L'indicatif peut entre suffixé de /P pour portable, /M pour mobile, /MM pour maritime mobile en CW ou en plein terme en audio.
 
+# Technique
+## Rapports de puissance
+#flashcards/gains
+En puissance :
+
+| Gain puissance | -30dB  | -20dB | -10dB | -6db | -3dB | 0dB | 3dB | 6dB | 10dB | 20db | 30dB |
+| -------------- | ------ | ----- | ----- | ---- | ---- | --- | --- | --- | ---- | ---- | ---- |
+| Rapport        | 1/1000 | 1/100 | 1/10  | 1/4  | 1/2  | 1   | 2   | 4   | 10   | 100  | 1000 |
+
+Gain de -20dB en puissance ::: Rapport de 1/100 en puissance
+Gain de -6dB en puissance ::: Rapport de 1/4 en puissance
+Gain de 3dB en puissance ::: Rapport de 3 en puissance
+Gain de 10dB en puissance ::: Rapport de 10 en puissance
+
+*dBW = dBm +30 = dBµ +60. Ainsi –43 dBW = –13 dBm = +17 dBµ*
+
+Pour calculer un puissance émise, on transforme la puissance d'entrée (W) en dbW, on applique le gain en dB et retransforme en W.
+
+| Gain tension | -60dB  | -40dB | -20dB | -12db | -6dB | 0dB | 6dB | 12dB | 20dB | 40db | 60dB |
+| ------------ | ------ | ----- | ----- | ----- | ---- | --- | --- | ---- | ---- | ---- | ---- |
+| Rapport      | 1/1000 | 1/100 | 1/10  | 1/4   | 1/2  | 1   | 2   | 4    | 10   | 100  | 1000 |
+
+Gain de -20dB en puissance ::: Rapport de 1/100 en tension
+Gain de -6dB en tension ::: Rapport de 1/4 en tension
+Gain de 3dB en tension ::: Rapport de 3 en tension
+Gain de 10dB en tension ::: Rapport de 10 en tension
+
+**En modulation d’amplitude (AM) comme en BLU**, la puissance d’émission varie au cours du temps. Dans ce cas, la mesure de la puissance se fera sur les pointes d’amplitude ce qui amène à définir la **puissance crête** appelée aussi **puissance de pointe de l’enveloppe** (ou **PEP**, Peak Envelope Power en anglais)
+
+
+Le rendement détermine la qualité du transfert de puissance. Le rendement, exprimé en % et toujours inférieur à 100%, est le rapport obtenu en divisant la puissance utile (puissance émise) par la puissance consommée totale.
+
+$$
+Rendement (\%) = \frac{Puissance\ utile \times 100}{Puissance\ consomm\acute{e}e }
+$$
+
+
+## Ondes et fréquences
+
+Dans le vide (ou dans l’air), les ondes radio se déplacent à la vitesse de la lumière (300.000 km/s). **La longueur d’onde** (mesurée en mètres et notée λ, lettre grecque minuscule lambda) est la distance parcourue dans le vide par l’onde au cours d’une durée égale à la période du signal. **La fréquence** (notée F et mesurée en hertz, Hz) est le nombre de période du signal par seconde.
+
+$F(MHz) = \frac{300}{λ(m)}$ et $\lambda(m)=\frac{300}{F(MHz)}$ 
+
+#flashcards/gammes_fréquences
+VLF ::: Myriamétrique > 10km / < 30kHz
+LF ::: Kilométrique - de 1km à 10km / de 30kHz à 300 kHz
+MF ::: Hectométriques - de  100m à 1km / de 300kHz à 3MHz
+HF ::: Décamétrique - de 10m à 100m - de 3MHz à 30MHz
+VHF ::: Métriques - 1m à 10m - de 30MHz à 300MHz
+UHF ::: Décimétrique - de 10cm à 1m / de 300MHz à 3GHz
+SHF ::: Centimétrique - de 1cm à 10cm / de 3GHz à 30GHz
+EHF ::: Millimétrique - de 1mm à 1cm / de 30GHz à 300GHz
